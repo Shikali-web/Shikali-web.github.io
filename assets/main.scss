@@ -1,0 +1,165 @@
+---
+---
+
+@import "minima";
+
+// ============================================
+// FONTS
+// ============================================
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Fira+Code&display=swap');
+
+body {
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  color: #2d2d2d;
+  background-color: #f9f9f7;
+}
+
+// ============================================
+// HEADER — dark bar with accent color
+// ============================================
+.site-header {
+  background-color: #0f172a;
+  border-top: 4px solid #6366f1;
+  border-bottom: none;
+  padding: 16px 0;
+}
+
+.site-title, .site-title:visited {
+  color: #f1f5f9 !important;
+  font-weight: 600;
+  font-size: 20px;
+  letter-spacing: -0.3px;
+}
+
+.site-title:hover {
+  color: #6366f1 !important;
+  text-decoration: none;
+}
+
+.site-nav .page-link {
+  color: #cbd5e1;
+  font-size: 14px;
+}
+
+.site-nav .page-link:hover {
+  color: #6366f1;
+}
+
+// ============================================
+// HERO BANNER on home page
+// ============================================
+.home-hero {
+  background: linear-gradient(135deg, #0f172a 0%, #1e3a5f 100%);
+  color: #f1f5f9;
+  padding: 60px 30px;
+  margin-bottom: 40px;
+  border-radius: 12px;
+}
+
+.home-hero h1 {
+  font-size: 32px;
+  font-weight: 600;
+  margin-bottom: 12px;
+  color: #f1f5f9;
+}
+
+.home-hero p {
+  font-size: 16px;
+  color: #94a3b8;
+  max-width: 560px;
+}
+
+// ============================================
+// POST LIST on home page
+// ============================================
+.post-list {
+  list-style: none;
+  margin-left: 0;
+}
+
+.post-list li {
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 10px;
+  padding: 24px 28px;
+  margin-bottom: 20px;
+  transition: box-shadow 0.2s;
+}
+
+.post-list li:hover {
+  box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+}
+
+.post-list h3 {
+  font-size: 18px;
+  margin-bottom: 6px;
+}
+
+.post-list h3 a {
+  color: #0f172a;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.post-list h3 a:hover {
+  color: #6366f1;
+}
+
+.post-meta {
+  font-size: 13px;
+  color: #64748b;
+}
+
+// ============================================
+// POST PAGE
+// ============================================
+.post-header {
+  border-bottom: 2px solid #6366f1;
+  padding-bottom: 20px;
+  margin-bottom: 32px;
+}
+
+.post-title {
+  font-size: 30px;
+  font-weight: 600;
+  color: #0f172a;
+  line-height: 1.3;
+}
+
+.post-content h2 {
+  font-size: 22px;
+  font-weight: 600;
+  color: #0f172a;
+  margin-top: 40px;
+  padding-bottom: 6px;
+  border-bottom: 1px solid #e2e8f0;
+}
+
+.post-content p {
+  line-height: 1.8;
+  color: #374151;
+}
+
+.post-content a {
+  color: #6366f1;
+}
+
+// ============================================
+// FOOTER
+// ============================================
+.site-footer {
+  background-color: #0f172a;
+  color: #94a3b8;
+  border-top: none;
+  margin-top: 60px;
+}
+
+.site-footer a {
+  color: #6366f1;
+}
+
+.footer-heading {
+  color: #f1f5f9;
+  font-size: 15px;
+}
